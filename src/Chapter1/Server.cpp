@@ -8,7 +8,7 @@
 */
 int main()
 {
-    //Step1. Here we assume that the server application has
+    //Step1. Here we assume that the server applicatio has
     //       already obtained the protocol port number.
     unsigned short port_number = 3333;
     //Step2. Create special object of boost::asio::ip::address class
