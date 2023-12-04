@@ -73,3 +73,10 @@ add_executable(server-accept src/Chapter1/server-accept.cpp)
 target_include_directories(server-accept PRIVATE ${Boost_INCLUDE_DIRS})
 # Vous pouvez également ajouter d'autres bibliothèques nécessaires
 target_link_libraries(server-accept PRIVATE ${Boost_LIBRARIES})
+
+
+# add_executable(output src/Chapter2/output.cpp)
+# # Liens avec les bibliothèques Boost nécessaires
+# target_include_directories(output PRIVATE ${Boost_INCLUDE_DIRS})
+# # Vous pouvez également ajouter d'autres bibliothèques nécessaires
+# target_link_libraries(output PRIVATE ${Boost_LIBRARIES})
