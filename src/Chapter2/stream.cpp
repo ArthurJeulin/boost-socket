@@ -20,6 +20,6 @@ int main()
     std::getline(input,message1);
 
     //Now message1 string contains 'Message1'.
-
+    std::cout <<message1<<"\n";
     return 0;
 }

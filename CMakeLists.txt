@@ -80,3 +80,15 @@ target_link_libraries(server-accept PRIVATE ${Boost_LIBRARIES})
 # target_include_directories(output PRIVATE ${Boost_INCLUDE_DIRS})
 # # Vous pouvez également ajouter d'autres bibliothèques nécessaires
 # target_link_libraries(output PRIVATE ${Boost_LIBRARIES})
+
+add_executable(stream src/Chapter2/stream.cpp)
+# Liens avec les bibliothèques Boost nécessaires
+target_include_directories(stream PRIVATE ${Boost_INCLUDE_DIRS})
+# Vous pouvez également ajouter d'autres bibliothèques nécessaires
+target_link_libraries(stream PRIVATE ${Boost_LIBRARIES})
+
+add_executable(write_socket src/Chapter2/write_socket.cpp)
+# Liens avec les bibliothèques Boost nécessaires
+target_include_directories(write_socket PRIVATE ${Boost_INCLUDE_DIRS})
+# Vous pouvez également ajouter d'autres bibliothèques nécessaires
+target_link_libraries(write_socket PRIVATE ${Boost_LIBRARIES})
