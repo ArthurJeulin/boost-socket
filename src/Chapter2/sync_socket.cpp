@@ -36,4 +36,5 @@ int main()
     }
     return 0;
     
+    std::cout << "Once opon a time there were a startup company working at Largo.";
 }
