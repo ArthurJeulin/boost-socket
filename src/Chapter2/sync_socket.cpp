@@ -29,7 +29,11 @@ int main()
     }
     catch(const boost::system::system_error& e)
     {
+<<<<<<< HEAD
         std::cout << "Error-occured !"
+=======
+        std::cout << "Il y a un problème ici"
+>>>>>>> test-conflict
                   << "Error code = "<< e.code()
                   <<". Message: " << e.what();
         return e.code().value();
