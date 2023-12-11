@@ -39,23 +39,23 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc"
-      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc"
+      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-K7gKy5"
+      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-K7gKy5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "arm64-linux"
+      Z_VCPKG_ROOT_DIR: "/ssd/dev/vcpkg"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc'
+        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-K7gKy5'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00f9b/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_00f9b.dir/build.make CMakeFiles/cmTC_00f9b.dir/build
-        make[1]: Entering directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc'
-        Building CXX object CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/g++-10   -std=gnu++2a   -v -o CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_a2697
+        [1/2] /usr/bin/g++-10   -std=gnu++2a   -v -o CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-10
         Target: aarch64-linux-gnu
@@ -63,8 +63,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~20.04) 
-        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++2a -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccpANL9c.s
+        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++2a -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc40QANt.s
         GNU C++17 (Ubuntu 10.5.0-1ubuntu1~20.04) version 10.5.0 (aarch64-linux-gnu)
         	compiled by GNU C version 10.5.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -88,15 +88,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 1871ad634e35d60a139b59b89d5367dc
-        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpANL9c.s
+        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc40QANt.s
         GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        Linking CXX executable cmTC_00f9b
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f9b.dir/link.txt --verbose=1
-        /usr/bin/g++-10  -v CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_00f9b 
+        COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        [2/2] : && /usr/bin/g++-10  -v CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2697   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-10
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper
@@ -107,10 +105,9 @@ events:
         gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~20.04) 
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00f9b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEhxqbU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_00f9b /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00f9b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        make[1]: Leaving directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2697' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr9UIVO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_a2697 /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2697' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
         
       exitCode: 0
   -
@@ -150,13 +147,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc']
+        ignore line: [Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-K7gKy5']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00f9b/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_00f9b.dir/build.make CMakeFiles/cmTC_00f9b.dir/build]
-        ignore line: [make[1]: Entering directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-FkPrXc']
-        ignore line: [Building CXX object CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/g++-10   -std=gnu++2a   -v -o CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_a2697]
+        ignore line: [[1/2] /usr/bin/g++-10   -std=gnu++2a   -v -o CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-10]
         ignore line: [Target: aarch64-linux-gnu]
@@ -164,8 +158,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~20.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++2a -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccpANL9c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -std=gnu++2a -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc40QANt.s]
         ignore line: [GNU C++17 (Ubuntu 10.5.0-1ubuntu1~20.04) version 10.5.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 10.5.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -189,15 +183,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 1871ad634e35d60a139b59b89d5367dc]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpANL9c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc40QANt.s]
         ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [Linking CXX executable cmTC_00f9b]
-        ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f9b.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/g++-10  -v CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_00f9b ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++2a' '-v' '-o' 'CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [[2/2] : && /usr/bin/g++-10  -v CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2697   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-10]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper]
@@ -208,13 +200,13 @@ events:
         ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~20.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/10/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00f9b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        link line: [ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEhxqbU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_00f9b /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2697' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr9UIVO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_a2697 /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/10 -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/10/../../.. CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/10/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/10/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/10/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/10/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccEhxqbU.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccr9UIVO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -234,7 +226,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_00f9b] ==> ignore
+          arg [cmTC_a2697] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10/crtbeginS.o]
@@ -246,7 +238,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10/../../..]
-          arg [CMakeFiles/cmTC_00f9b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a2697.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -280,118 +272,111 @@ events:
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "/usr/local/lib/cmake/boost_thread-1.81.0/boost_thread-config.cmake:118 (find_dependency)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:141 (find_package)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:262 (boost_find_component)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:861 (_find_package)"
+      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:2143 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:828 (_find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa"
-      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa"
+      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-l1J7c7"
+      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-l1J7c7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "arm64-linux"
+      Z_VCPKG_ROOT_DIR: "/ssd/dev/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa'
+        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-l1J7c7'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5ac8/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b5ac8.dir/build.make CMakeFiles/cmTC_b5ac8.dir/build
-        make[1]: Entering directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa'
-        Building CXX object CMakeFiles/cmTC_b5ac8.dir/src.cxx.o
-        /usr/bin/g++-10 -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++2a -o CMakeFiles/cmTC_b5ac8.dir/src.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa/src.cxx
-        Linking CXX executable cmTC_b5ac8
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ac8.dir/link.txt --verbose=1
-        /usr/bin/g++-10 CMakeFiles/cmTC_b5ac8.dir/src.cxx.o -o cmTC_b5ac8 
-        /usr/bin/ld: CMakeFiles/cmTC_b5ac8.dir/src.cxx.o: in function `main':
+        Run Build Command(s): /usr/bin/ninja -v cmTC_fbdef
+        [1/2] /usr/bin/g++-10 -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++2a -o CMakeFiles/cmTC_fbdef.dir/src.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-l1J7c7/src.cxx
+        [2/2] : && /usr/bin/g++-10   CMakeFiles/cmTC_fbdef.dir/src.cxx.o -o cmTC_fbdef   && :
+        FAILED: cmTC_fbdef 
+        : && /usr/bin/g++-10   CMakeFiles/cmTC_fbdef.dir/src.cxx.o -o cmTC_fbdef   && :
+        /usr/bin/ld: CMakeFiles/cmTC_fbdef.dir/src.cxx.o: in function `main':
         src.cxx:(.text+0x48): undefined reference to `pthread_create'
         /usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_detach'
         /usr/bin/ld: src.cxx:(.text+0x58): undefined reference to `pthread_cancel'
         /usr/bin/ld: src.cxx:(.text+0x64): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_b5ac8.dir/build.make:99: cmTC_b5ac8] Error 1
-        make[1]: Leaving directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-0CiUoa'
-        make: *** [Makefile:127: cmTC_b5ac8/fast] Error 2
+        ninja: build stopped: subcommand failed.
         
-      exitCode: 2
+      exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "/usr/local/lib/cmake/boost_thread-1.81.0/boost_thread-config.cmake:118 (find_dependency)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:141 (find_package)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:262 (boost_find_component)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:861 (_find_package)"
+      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:2143 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:828 (_find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
     directories:
-      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c"
-      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c"
+      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-7HTUu7"
+      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-7HTUu7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "arm64-linux"
+      Z_VCPKG_ROOT_DIR: "/ssd/dev/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c'
+        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-7HTUu7'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c08d/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7c08d.dir/build.make CMakeFiles/cmTC_7c08d.dir/build
-        make[1]: Entering directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c'
-        Building CXX object CMakeFiles/cmTC_7c08d.dir/CheckFunctionExists.cxx.o
-        /usr/bin/g++-10   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++2a -o CMakeFiles/cmTC_7c08d.dir/CheckFunctionExists.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_7c08d
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c08d.dir/link.txt --verbose=1
-        /usr/bin/g++-10  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_7c08d.dir/CheckFunctionExists.cxx.o -o cmTC_7c08d  -lpthreads 
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d5bad
+        [1/2] /usr/bin/g++-10   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++2a -o CMakeFiles/cmTC_d5bad.dir/CheckFunctionExists.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-7HTUu7/CheckFunctionExists.cxx
+        [2/2] : && /usr/bin/g++-10 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_d5bad.dir/CheckFunctionExists.cxx.o -o cmTC_d5bad  -lpthreads && :
+        FAILED: cmTC_d5bad 
+        : && /usr/bin/g++-10 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_d5bad.dir/CheckFunctionExists.cxx.o -o cmTC_d5bad  -lpthreads && :
         /usr/bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_7c08d.dir/build.make:99: cmTC_7c08d] Error 1
-        make[1]: Leaving directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-PJY43c'
-        make: *** [Makefile:127: cmTC_7c08d/fast] Error 2
+        ninja: build stopped: subcommand failed.
         
-      exitCode: 2
+      exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "/usr/local/lib/cmake/boost_thread-1.81.0/boost_thread-config.cmake:118 (find_dependency)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:141 (find_package)"
-      - "/usr/local/lib/cmake/Boost-1.81.0/BoostConfig.cmake:262 (boost_find_component)"
-      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:861 (_find_package)"
+      - "/usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindBoost.cmake:2143 (find_package)"
+      - "/ssd/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:828 (_find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
     directories:
-      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa"
-      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa"
+      source: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-XLes17"
+      binary: "/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-XLes17"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "arm64-linux"
+      Z_VCPKG_ROOT_DIR: "/ssd/dev/vcpkg"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa'
+        Change Dir: '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-XLes17'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_425b6/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_425b6.dir/build.make CMakeFiles/cmTC_425b6.dir/build
-        make[1]: Entering directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa'
-        Building CXX object CMakeFiles/cmTC_425b6.dir/CheckFunctionExists.cxx.o
-        /usr/bin/g++-10   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++2a -o CMakeFiles/cmTC_425b6.dir/CheckFunctionExists.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_425b6
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_425b6.dir/link.txt --verbose=1
-        /usr/bin/g++-10  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_425b6.dir/CheckFunctionExists.cxx.o -o cmTC_425b6  -lpthread 
-        make[1]: Leaving directory '/ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-yCiNLa'
+        Run Build Command(s): /usr/bin/ninja -v cmTC_5f25b
+        [1/2] /usr/bin/g++-10   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++2a -o CMakeFiles/cmTC_5f25b.dir/CheckFunctionExists.cxx.o -c /ssd/dev/boost-socket/build/CMakeFiles/CMakeScratch/TryCompile-XLes17/CheckFunctionExists.cxx
+        [2/2] : && /usr/bin/g++-10 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_5f25b.dir/CheckFunctionExists.cxx.o -o cmTC_5f25b  -lpthread && :
         
       exitCode: 0
 ...
